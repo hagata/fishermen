@@ -9,7 +9,6 @@ build:
 	#docker-machine create --driver virtualbox default
 	docker-machine start default
 	eval $(docker-machine env default)
-	docker build -t make-test .
-	docker run -t --name auto-launch make-test
+	docker ps
 
 
