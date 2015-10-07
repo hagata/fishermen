@@ -1,0 +1,4 @@
+
+node-start:
+	npm install
+
