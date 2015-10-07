@@ -15,6 +15,7 @@ RUN curl -sL https://deb.nodesource.com/setup_0.12 | bash -
 # Then install with:
 RUN apt-get install -y nodejs
 
+#setup NPM dependencies
 
 ##get gCloud SDK
 # Need to have authentication?
